@@ -5,6 +5,7 @@ metadata:
     app: pipelines-vote-api
   name: pipelines-vote-api
 spec:
+  runtimeClassName: kata-remote-cc
   replicas: 1
   selector:
     matchLabels:
